@@ -16,7 +16,7 @@ public class HelloWorld
         }
 
  }
- public class pros :entity 
+ public class procedural:entity 
  {
  
  }
