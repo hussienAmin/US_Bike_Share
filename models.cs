@@ -1,5 +1,6 @@
-public class entit
+public class entity
 {
+
 }
 public class :entity 
 {
