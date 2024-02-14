@@ -20,3 +20,17 @@ public class HelloWorld
  {
  
  }
+
+public definitive:entity 
+ {
+ 
+ }
+public definitive:entity 
+ {
+ 
+ }
+
+public definitive:entity 
+ {
+ 
+ }
