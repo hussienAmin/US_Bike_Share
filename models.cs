@@ -1,36 +1,18 @@
-using System;
-using System.ComponentModel;
-public class HelloWorld
+public class EngWord
 {
-    public static void Main(string[] args)
-    {
-        Console.WriteLine ("Hello Mono World");
-    }
+public int Id{get;set;}
+public string Word{get;set;}
 }
+public class ArWord
+{
+public int Id{get;set;}
+public string Word{get;set;}
+}
+public class EngAr
+{
+public EnWord EnWord{get;set;}
+public int ArId{get;set;}
+public ArWord ArWord{get;set;}
+public int EnId{get;set;}
 
- public class entity: INotifyPropertyChanged
- {public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged(string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
-
- }
- public class procedural:entity 
- {
- 
- }
-
-public definitive:entity 
- {
- 
- }
-public definitive:entity 
- {
- 
- }
-
-public definitive:entity 
- {
- 
- }
+}
